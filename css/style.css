@@ -1,3 +1,7 @@
+nav {
+    left: 140px;
+    width: 220px;
+}
 li.nav-item1>a {
     position: absolute;
     width: 371px;
@@ -96,7 +100,7 @@ li.nav-item5>a {
 
 li.nav-item6>a {
     position: absolute;
-    width: 371px;
+    width: 250px;
     height: 70px;
     left: 1151px;
     top: 7px;
@@ -122,20 +126,23 @@ a.navbar-brand>img {
 }
 
 img.vaporpng {
-    margin-top: 200px;
-    margin-left: 450px;
-    top: 200px;
-    right: 600px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 100px;
+    margin-left: 200px;
+    top: 100px;
+    left: 270px;
     width: 900px;
+    z-index: 1;
 
 }
 
 p.vapor {
     position: absolute;
-    width: 2285px;
+    width: 1285px;
     height: 698px;
-    left: -176px;
-    top: 199px;
+    left: 365px;
+    top: 140px;
 
 
     
@@ -147,6 +154,7 @@ p.vapor {
     align-items: center;
     text-align: center;
     letter-spacing: 0.015em;
+    
 
     color: #3B9CFA;
 
@@ -156,8 +164,8 @@ p.nikeair {
     position: absolute;
     width: 371px;
     height: 146px;
-    left: 166px;
-    top: 305px;
+    left: 320px;
+    top: 275px;
 
     /* NIKE */
 
@@ -172,4 +180,58 @@ p.nikeair {
     letter-spacing: -0.09em;
 
     color: #FFFFFF;
+}
+
+p.number {
+    position: absolute;
+    width: 70px;
+    height: 146px;
+    left: 1487px;
+    top: 600px;
+
+    font-style: italic;
+    font-weight: 750;
+    font-size: 36px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.09em;
+
+    color: #FFFFFF;
+}
+
+p.est {
+    position: absolute;
+    width: 50px;
+    height: 146px;
+    left: 1729px;
+    top: 937px;
+
+    /* Bold 18 */
+
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.circle {
+    position: absolute;
+    width: 1585px;
+    height: 1585px;
+    
+    -webkit-border-radius: 1080px;
+      -moz-border-radius: 1080px;
+      border-radius: 1080px;
+    left: 150px;
+    top: -253px;
+    background: rgba(103, 182, 255, 0.4);
+filter: blur(144px);
 }
