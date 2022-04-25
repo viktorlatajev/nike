@@ -137,6 +137,20 @@ img.vaporpng {
 
 }
 
+img.airmax {
+    position: relative;
+    overflow: hidden;
+    margin-top: 90px;
+    margin-left: 200px;
+    top: 0px;
+    left: 120px;
+    width: 1200px;
+    z-index: 1;
+
+}
+
+
+
 p.vapor {
     position: absolute;
     width: 1285px;
@@ -157,6 +171,53 @@ p.vapor {
     
 
     color: #3B9CFA;
+
+}
+
+p.airmax {
+    position: absolute;
+    width: 1285px;
+    height: 698px;
+    left: 365px;
+    top: 140px;
+
+
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 197px;
+    line-height: 259px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.015em;
+    word-spacing: 170px;
+    
+
+    color: #FF3243;
+
+}
+
+p.vistacape {
+    position: absolute;
+    width: 1285px;
+    height: 698px;
+    left: 365px;
+    top: 140px;
+
+
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 197px;
+    line-height: 259px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.015em;
+    
+
+    color: #FFB925;
 
 }
 
@@ -235,3 +296,34 @@ p.est {
     background: rgba(103, 182, 255, 0.4);
 filter: blur(144px);
 }
+
+.circle1 {
+    position: absolute;
+    width: 1585px;
+    height: 1585px;
+    
+    -webkit-border-radius: 1080px;
+      -moz-border-radius: 1080px;
+      border-radius: 1080px;
+    left: 150px;
+    top: -253px;
+    background: #FF4B5C;
+
+    filter: blur(144px);
+}
+
+.circle2 {
+    position: absolute;
+    width: 1585px;
+    height: 1585px;
+    
+    -webkit-border-radius: 1080px;
+      -moz-border-radius: 1080px;
+      border-radius: 1080px;
+    left: 150px;
+    top: -253px;
+    background: #FFC547;
+    filter: blur(144px);
+}
+
+
